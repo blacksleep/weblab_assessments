@@ -1,0 +1,39 @@
+.tiny {
+    font-size: 12px;
+}
+
+.heavy {
+    font-weight: bold;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.ems {
+    margin: 1em;
+}
+
+.border {
+    border-bottom: 1px solid lightgray;
+}
+
+.color {
+    color: #999;
+}
+
+.header {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    font-family; Arial;
+}
+
+
+
+
+bold
+- 12px font size
+- italic
+- margin of 1em
+- bottom border 1px solid lightgray
+- color #999
