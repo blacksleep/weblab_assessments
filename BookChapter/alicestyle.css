@@ -1,0 +1,46 @@
+.title {
+    font-family: Garamond;
+    font-size: 16px;
+    text-align: center;
+    min-height: 490px;
+    padding: 150px 15px 10px 15px;
+    max-width: 450px;
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 1);
+    background-color: #feffcf;
+    line-height: 1.5;
+}
+
+.chapter {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,1);
+    background-color: #feffcf;
+    line-height: 1.5;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.asterisks {
+    text-align: center;
+}
+
+#firstletter {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 50px;
+    line-height: 0;
+}
+
+.ch1opening {
+    line-height: 2;
+    text-align: center;
+    padding-bottom: 20px;
+}
