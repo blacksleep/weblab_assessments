@@ -44,3 +44,32 @@
     text-align: center;
     padding-bottom: 20px;
 }
+
+.table {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 2px rgba(0,0,0,1);
+    background-color: #feffcf;
+    line-height: 1.5;
+    height: 600px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    background-image: url(http://www.9to5hdwallpapers.com/wp-content/uploads/2013/06/Beautiful-Green-Hills-Photos.jpg);
+    background-size: 100%;
+}
+
+#contents {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 30px;
+}
