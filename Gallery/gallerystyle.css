@@ -1,4 +1,4 @@
-.card1 {
+#card1 {
     background: url("img/polaroid_film.jpg");
     background-size: 183px 198px;
     background-repeat: no-repeat;
@@ -15,10 +15,10 @@
     white-space: nowrap;
     font-style: italic;
     line-height: 2.1em;
-
+    transition: all .3s ease;
 }
 
-.card2 {
+#card2 {
     background: url("img/polaroid_film.jpg");
     background-size: 183px 198px;
     background-repeat: no-repeat;
@@ -35,10 +35,10 @@
     white-space: nowrap;
     font-style: italic;
     line-height: 2.1em;
-
+    transition: all .3s ease;
 }
 
-.card3 {
+#card3 {
     background: url("img/polaroid_film.jpg");
     background-size: 183px 198px;
     background-repeat: no-repeat;
@@ -55,29 +55,29 @@
     white-space: nowrap;
     font-style: italic;
     line-height: 2.1em;
+    transition: all .3s ease;
 }
 
-.card1:hover {
+#card1:hover {
     box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.75);
     transform: scale(1.2) rotate(7deg);
     cursor: pointer;
 }
 
-.card2:hover {
+#card2:hover {
     box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.75);
     transform: scale(1.2) rotate(-7deg);
     cursor: pointer;
 }
 
-.card3:hover {
+#card3:hover {
     box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.75);
     transform: scale(1.2);
     cursor: pointer;
 }
 
-#image {
+.image {
     margin: -8px -9px;
-
 }
 
 body {
@@ -92,5 +92,6 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-style: italic;
     font-weight: 100;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
-
