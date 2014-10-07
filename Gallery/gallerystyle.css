@@ -1,4 +1,97 @@
-.card {
+.card1 {
+    background: url("img/polaroid_film.jpg");
+    background-size: 183px 198px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    color: #1d1d1d;
+    float: left;
+    height: 9em;
+    width: 8em;
+    margin: 1em 1em;
+    padding: 1em;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+    white-space: nowrap;
+    font-style: italic;
+    line-height: 2.1em;
 
 }
+
+.card2 {
+    background: url("img/polaroid_film.jpg");
+    background-size: 183px 198px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.5);
+    color: #1d1d1d;
+    float: left;
+    height: 9em;
+    width: 8em;
+    margin: 1em 1em;
+    padding: 1em;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+    white-space: nowrap;
+    font-style: italic;
+    line-height: 2.1em;
+
+}
+
+.card3 {
+    background: url("img/polaroid_film.jpg");
+    background-size: 183px 198px;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
+    color: #1d1d1d;
+    float: left;
+    height: 9em;
+    width: 8em;
+    margin: 1em 1em;
+    padding: 1em;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+    white-space: nowrap;
+    font-style: italic;
+    line-height: 2.1em;
+}
+
+.card1:hover {
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.75);
+    transform: scale(1.2) rotate(7deg);
+    cursor: pointer;
+}
+
+.card2:hover {
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.75);
+    transform: scale(1.2) rotate(-7deg);
+    cursor: pointer;
+}
+
+.card3:hover {
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.75);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#image {
+    margin: -8px -9px;
+
+}
+
+body {
+    background-image: url("img/cityscape.jpg");
+}
+
+h1 {
+    text-align: center;
+    color: #0cadc4;
+    font-size: 128px;
+    line-height: 0;
+    font-family: 'Sacramento', cursive;
+    font-style: italic;
+    font-weight: 100;
+}
+
 
