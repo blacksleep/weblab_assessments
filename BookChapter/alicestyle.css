@@ -1,27 +1,19 @@
-.title {
-    font-family: Garamond;
-    font-size: 16px;
+#title {
+    font-size: 32px;
     text-align: center;
-    min-height: 490px;
-    padding: 150px 15px 10px 15px;
-    max-width: 450px;
-    width: 100%;
-    margin: 10px auto;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 1);
-    background-color: #feffcf;
     line-height: 1.5;
+    font-weight: bolder;
 }
 
-.chapter {
+#chapter {
+    text-align: center;
     max-width: 450px;
     width: 100%;
     margin: 0 auto;
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 2px 2px 15px 2px rgba(0,0,0,1);
+    box-shadow: 2px 2px 15px 20px rgba(0,0,0,.75);
     background-color: #feffcf;
     line-height: 1.5;
     height: 600px;
@@ -43,6 +35,7 @@
     line-height: 2;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 650px;
 }
 
 .table {
@@ -52,8 +45,8 @@
     padding: 1em;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 2px 2px 15px 2px rgba(0,0,0,1);
-    background-color: #feffcf;
+    box-shadow: 2px 2px 15px 20px rgba(0,0,0,.75);
+    background-color: #feffc4;
     line-height: 1.5;
     height: 600px;
     text-align: center;
@@ -67,9 +60,25 @@ a {
 body {
     background-image: url(http://www.9to5hdwallpapers.com/wp-content/uploads/2013/06/Beautiful-Green-Hills-Photos.jpg);
     background-size: 100%;
+    font-family: Garamond, serif;
 }
 
 #contents {
     font-family: 'Pinyon Script', cursive;
-    font-size: 30px;
+    font-size: 40px;
+    line-height: 18px;
+}
+
+.pinyonscript {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 32px;
+}
+
+div span p {
+    padding: 25px 10px;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+    text-transform: lowercase;
 }
